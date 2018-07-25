@@ -45,6 +45,7 @@ choco install -y slack
 choco install -y calibre
 choco install -y logitech-options
 choco install -y partitionwizard
+choco install -y deluge
 
 :: Additional env setup
 
