@@ -9,11 +9,12 @@ choco install -y windirstat
 
 :: Security
 :: choco install -y malwarebytes
-choco install -y spybot
+:: choco install -y spybot
 :: choco install -y sandboxie
 
 :: Internet
 choco install -y googlechrome
+choco install -y firefox
 
 :: Backup
 choco install -y dropbox
@@ -38,17 +39,22 @@ choco install -y winmerge
 
 
 :: Creation
-choco install -y lightworks
+:: choco install -y lightworks
+choco install -y pencil
+choco install -y audacity
+choco install -y gimp
 
 :: Comm
 :: choco install -y skype
 
 :: Others
 choco install -y calibre
-choco install -y logitech-options
+:: choco install -y logitech-options
 :: choco install -y partitionwizard
 choco install -y deluge
-choco install -y deezer
+:: choco install -y deezer
+choco install -y gnucash
+choco install -y licecap
 
 :: Additional env setup
 
