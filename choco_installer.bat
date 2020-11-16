@@ -6,6 +6,7 @@ choco install -y ccleaner
 choco install -y everything
 choco install -y k-litecodecpackfull
 choco install -y windirstat
+choco install -y sdio
 
 :: Security
 :: choco install -y malwarebytes
