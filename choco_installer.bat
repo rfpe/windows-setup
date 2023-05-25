@@ -54,6 +54,7 @@ choco install -y calibre
 :: choco install -y logitech-options
 :: choco install -y partitionwizard
 :: choco install recuva
+choco install dupeguru
 choco install -y deluge
 :: choco install -y deezer
 choco install -y gnucash
