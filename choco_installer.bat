@@ -59,6 +59,7 @@ choco install -y deluge
 :: choco install -y deezer
 choco install -y gnucash
 choco install -y licecap
+choco install -y anki
 
 :: Additional env setup
 
