@@ -16,6 +16,7 @@ choco install -y sdio
 :: Internet
 choco install -y googlechrome
 choco install -y firefox
+choco install -y thunderbird
 
 :: Backup
 choco install -y dropbox
