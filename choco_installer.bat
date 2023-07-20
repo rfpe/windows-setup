@@ -5,7 +5,8 @@ choco install -y 7zip
 choco install -y ccleaner
 choco install -y everything
 choco install -y k-litecodecpackfull
-choco install -y windirstat
+:: choco install -y windirstat
+choco install -y wiztree
 choco install -y sdio
 
 :: Security
