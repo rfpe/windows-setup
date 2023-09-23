@@ -2,14 +2,20 @@
 
 :: Utilities
 choco install -y 7zip
-choco install -y ccleaner
 choco install -y everything
 choco install -y k-litecodecpackfull
-:: choco install -y windirstat
+choco install -y dupeguru
 choco install -y wiztree
-choco install -y sdio
+:: choco install -y anki
+:: choco install -y licecap
 
-:: Security
+:: PC health
+:: choco install -y sdio
+:: choco install -y windirstat
+:: choco install -y partitionwizard
+:: choco install -y recuva
+
+:: Safety
 :: choco install -y malwarebytes
 :: choco install -y spybot
 :: choco install -y sandboxie
@@ -18,53 +24,42 @@ choco install -y sdio
 choco install -y googlechrome
 choco install -y firefox
 choco install -y thunderbird
-
-:: Backup
-choco install -y dropbox
+choco install -y calibre
 
 :: Development
-choco install -y jdk8
-choco install -y python3
-choco install -y nvm
-choco install -y dbeaver
 choco install -y git
-choco install -y emeditor
 choco install -y notepadplusplus
-choco install -y netbeans
-choco install -y virtualbox
-choco install -y vscode
-choco install -y jetbrainstoolbox
+choco install -y winmerge
+:: choco install -y jdk8
+:: choco install -y maven
+:: choco install -y python3
+:: choco install -y dbeaver
+:: choco install -y netbeans
+:: choco install -y virtualbox
+:: choco install -y vscode
+:: choco install -y jetbrainstoolbox
+:: choco install -y emeditor
 
 ## Administration
 choco install -y putty
 choco install -y winscp.install
-choco install -y winmerge
 
 
 :: Creation
 :: choco install -y lightworks
-choco install -y pencil
-choco install -y audacity
-choco install -y gimp
-
-:: Comm
-:: choco install -y skype
+:: choco install -y pencil
+:: choco install -y audacity
+:: choco install -y gimp
 
 :: Others
-choco install -y calibre
 :: choco install -y logitech-options
-:: choco install -y partitionwizard
-:: choco install recuva
-choco install dupeguru
-choco install -y deluge
-:: choco install -y deezer
-choco install -y gnucash
-choco install -y licecap
-choco install -y anki
+:: choco install -y deluge
+:: choco install -y gnucash
 
 :: Additional env setup
-
 refreshenv
 
-nvm install -y 10.0.0
-nvm use 10.0.0
+:: Node
+:: choco install -y nvm
+:: nvm install -y lts
+:: nvm use lts
